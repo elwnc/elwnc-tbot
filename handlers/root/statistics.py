@@ -12,7 +12,7 @@ STATISTICS_TEMPLATE = """
 
 <b>Barcha foydalanuvchi:</b> {auc}
 <b>So'ngi 168 soat ichida:</b> {twuc}
-<b>So'ngi 1kun ichida:</b> {tduc}
+<b>So'ngi 24 soat ichida:</b> {tduc}
 """
 
 
