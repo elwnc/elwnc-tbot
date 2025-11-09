@@ -6,7 +6,9 @@ async def set_bot_commands(bot: Bot):
     commands = [
         BotCommand(command="start", description="⚡️ Bo'tga start bosish"),
         BotCommand(command="statistics", description="📊 Foydanuvchi sonlari bo'yicha statistika"),
-        BotCommand(command="stats", description="⛓️ statistics komandasi uchun qisqartma"),
+        BotCommand(command="stats", description="⛓️ alias:statistics"),
+        BotCommand(command="instagram", description="⛓️ Instagramdan yuklovchi funksiya"),
+        BotCommand(command="insta", description="⛓️ alias:instagram"),
     ]
     
     await bot.set_my_commands(commands)
